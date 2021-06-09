@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		717E1DE62670CA9000B09A8F /* Fuel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717E1DE52670CA9000B09A8F /* Fuel.storyboard */; };
+		717E1DE92670CCBF00B09A8F /* FuelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E1DE82670CCBF00B09A8F /* FuelViewController.swift */; };
 		B4F76C732670C7DB00F6FAD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F76C722670C7DB00F6FAD9 /* AppDelegate.swift */; };
 		B4F76C752670C7DB00F6FAD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F76C742670C7DB00F6FAD9 /* SceneDelegate.swift */; };
 		B4F76C772670C7DB00F6FAD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F76C762670C7DB00F6FAD9 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		717E1DE52670CA9000B09A8F /* Fuel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fuel.storyboard; sourceTree = "<group>"; };
+		717E1DE82670CCBF00B09A8F /* FuelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelViewController.swift; sourceTree = "<group>"; };
 		B4F76C6F2670C7DB00F6FAD9 /* Spaceship-GithubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spaceship-GithubDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F76C722670C7DB00F6FAD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4F76C742670C7DB00F6FAD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				B4F76C802670C7DF00F6FAD9 /* LaunchScreen.storyboard */,
 				B4F76C832670C7DF00F6FAD9 /* Info.plist */,
 				B4F76C7B2670C7DB00F6FAD9 /* Spaceship_GithubDemo.xcdatamodeld */,
+				717E1DE52670CA9000B09A8F /* Fuel.storyboard */,
+				717E1DE82670CCBF00B09A8F /* FuelViewController.swift */,
 			);
 			path = "Spaceship-GithubDemo";
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			files = (
 				B4F76C822670C7DF00F6FAD9 /* LaunchScreen.storyboard in Resources */,
 				B4F76C7F2670C7DF00F6FAD9 /* Assets.xcassets in Resources */,
+				717E1DE62670CA9000B09A8F /* Fuel.storyboard in Resources */,
 				B4F76C7A2670C7DB00F6FAD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +151,7 @@
 				B4F76C772670C7DB00F6FAD9 /* ViewController.swift in Sources */,
 				B4F76C732670C7DB00F6FAD9 /* AppDelegate.swift in Sources */,
 				B4F76C752670C7DB00F6FAD9 /* SceneDelegate.swift in Sources */,
+				717E1DE92670CCBF00B09A8F /* FuelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
