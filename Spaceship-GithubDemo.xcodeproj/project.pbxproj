@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BFC999E2670C99900A56F2C /* EngineRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC999D2670C99900A56F2C /* EngineRoomViewController.swift */; };
 		B4F76C732670C7DB00F6FAD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F76C722670C7DB00F6FAD9 /* AppDelegate.swift */; };
 		B4F76C752670C7DB00F6FAD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F76C742670C7DB00F6FAD9 /* SceneDelegate.swift */; };
 		B4F76C772670C7DB00F6FAD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F76C762670C7DB00F6FAD9 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BFC999D2670C99900A56F2C /* EngineRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineRoomViewController.swift; sourceTree = "<group>"; };
 		B4F76C6F2670C7DB00F6FAD9 /* Spaceship-GithubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spaceship-GithubDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F76C722670C7DB00F6FAD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4F76C742670C7DB00F6FAD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				B4F76C742670C7DB00F6FAD9 /* SceneDelegate.swift */,
 				B4F76C762670C7DB00F6FAD9 /* ViewController.swift */,
 				B4F76C782670C7DB00F6FAD9 /* Main.storyboard */,
+				5BFC999D2670C99900A56F2C /* EngineRoomViewController.swift */,
 				B4F76C7E2670C7DF00F6FAD9 /* Assets.xcassets */,
 				B4F76C802670C7DF00F6FAD9 /* LaunchScreen.storyboard */,
 				B4F76C832670C7DF00F6FAD9 /* Info.plist */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BFC999E2670C99900A56F2C /* EngineRoomViewController.swift in Sources */,
 				B4F76C7D2670C7DB00F6FAD9 /* Spaceship_GithubDemo.xcdatamodeld in Sources */,
 				B4F76C772670C7DB00F6FAD9 /* ViewController.swift in Sources */,
 				B4F76C732670C7DB00F6FAD9 /* AppDelegate.swift in Sources */,
