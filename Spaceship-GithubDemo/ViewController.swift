@@ -13,7 +13,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func cockpitTapped(_ sender: Any) {
+        let cockpitStoryboard = UIStoryboard(name: "Cockpit", bundle: nil)
+        let cockpit = cockpitStoryboard.instantiateViewController(withIdentifier: "cockpitstoryboard") as! CockpitViewController
+        self.present(cockpit, animated: true)
+    }
+    
 
 }
 

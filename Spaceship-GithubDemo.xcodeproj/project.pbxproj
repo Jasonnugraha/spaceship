@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037D38CC2670C9C2007C2420 /* CockpitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D38CB2670C9C2007C2420 /* CockpitViewController.swift */; };
+		037D38D12670CC56007C2420 /* Cockpit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037D38CF2670CC56007C2420 /* Cockpit.storyboard */; };
 		B4F76C732670C7DB00F6FAD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F76C722670C7DB00F6FAD9 /* AppDelegate.swift */; };
 		B4F76C752670C7DB00F6FAD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F76C742670C7DB00F6FAD9 /* SceneDelegate.swift */; };
 		B4F76C772670C7DB00F6FAD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F76C762670C7DB00F6FAD9 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		037D38CB2670C9C2007C2420 /* CockpitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitViewController.swift; sourceTree = "<group>"; };
+		037D38D02670CC56007C2420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Spaceship-GithubDemo/Base.lproj/Cockpit.storyboard"; sourceTree = "<group>"; };
 		B4F76C6F2670C7DB00F6FAD9 /* Spaceship-GithubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spaceship-GithubDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F76C722670C7DB00F6FAD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4F76C742670C7DB00F6FAD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		037D38CA2670C9A8007C2420 /* Cockpit */ = {
+			isa = PBXGroup;
+			children = (
+				037D38CF2670CC56007C2420 /* Cockpit.storyboard */,
+				037D38CB2670C9C2007C2420 /* CockpitViewController.swift */,
+			);
+			path = Cockpit;
+			sourceTree = "<group>";
+		};
 		B4F76C662670C7DB00F6FAD9 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		B4F76C712670C7DB00F6FAD9 /* Spaceship-GithubDemo */ = {
 			isa = PBXGroup;
 			children = (
+				037D38CA2670C9A8007C2420 /* Cockpit */,
 				B4F76C722670C7DB00F6FAD9 /* AppDelegate.swift */,
 				B4F76C742670C7DB00F6FAD9 /* SceneDelegate.swift */,
 				B4F76C762670C7DB00F6FAD9 /* ViewController.swift */,
@@ -129,6 +143,7 @@
 			files = (
 				B4F76C822670C7DF00F6FAD9 /* LaunchScreen.storyboard in Resources */,
 				B4F76C7F2670C7DF00F6FAD9 /* Assets.xcassets in Resources */,
+				037D38D12670CC56007C2420 /* Cockpit.storyboard in Resources */,
 				B4F76C7A2670C7DB00F6FAD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +158,7 @@
 				B4F76C7D2670C7DB00F6FAD9 /* Spaceship_GithubDemo.xcdatamodeld in Sources */,
 				B4F76C772670C7DB00F6FAD9 /* ViewController.swift in Sources */,
 				B4F76C732670C7DB00F6FAD9 /* AppDelegate.swift in Sources */,
+				037D38CC2670C9C2007C2420 /* CockpitViewController.swift in Sources */,
 				B4F76C752670C7DB00F6FAD9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +166,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		037D38CF2670CC56007C2420 /* Cockpit.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037D38D02670CC56007C2420 /* Base */,
+			);
+			name = Cockpit.storyboard;
+			sourceTree = "<group>";
+		};
 		B4F76C782670C7DB00F6FAD9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
