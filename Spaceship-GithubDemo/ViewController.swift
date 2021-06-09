@@ -15,5 +15,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func navigateToFuel(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: "moveToFuel", sender: sender)
+    }
 }
 
